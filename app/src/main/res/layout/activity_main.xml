@@ -52,7 +52,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/capybara3" />
+        app:srcCompat="@drawable/capybara3"
+        android:scaleType="fitXY"/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -64,7 +65,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/cytryna" />
+        app:srcCompat="@drawable/cytryna"
+        android:scaleType="fitXY"/>
 
     <ImageView
         android:id="@+id/imageView5"
@@ -76,7 +78,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.829"
-        app:srcCompat="@drawable/unknown" />
+        app:srcCompat="@drawable/unknown"
+        android:scaleType="fitXY"/>
 
     <SeekBar
         android:id="@+id/img3Horizontal"
@@ -145,6 +148,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
